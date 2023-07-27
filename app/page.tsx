@@ -14,10 +14,16 @@ export default function Home() {
             project-gallery-colored-card
           </Link>
           <Link
-            href="/demos/image-slide-gallery"
+            href="/demos/images-slide-gallery"
             className="text-xl hover:underline hover:underline-offset-2 hover:decoration-2"
           >
-            image-slide-project-gallery
+            images-slide-gallery
+          </Link>
+          <Link
+            href="/demos/images-floating"
+            className="text-xl hover:underline hover:underline-offset-2 hover:decoration-2"
+          >
+            images-floating
           </Link>
         </div>
       </div>

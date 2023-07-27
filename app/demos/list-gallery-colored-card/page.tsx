@@ -42,7 +42,7 @@ const projects = [
   // }
 ]
 
-const page = ({ }) => {
+const Page = ({ }) => {
     const { theme } = useTheme()
 
     const manageMouseEnter = (e: React.MouseEvent<HTMLDivElement>, index: number) => {
@@ -83,4 +83,4 @@ const page = ({ }) => {
     )
 }
 
-export default page
+export default Page;

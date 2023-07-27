@@ -1,4 +1,4 @@
-import Project from "@/components/image-slide-gallery/Project"
+import Project from "@/components/images-slide-gallery/Project"
 
 const projects = [
   {
@@ -36,7 +36,7 @@ const page = ({ }) => {
       <div className="w-[70%]">
         {
           projects.map(project => (
-            <Project project={project} />
+            <Project key={project.title1}  project={project} />
           ))
         }
       </div>

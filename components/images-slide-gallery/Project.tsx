@@ -18,6 +18,7 @@ const anim = {
 
 export default function index({ project }: { project: Project }) {
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [isActive, setIsActive] = useState(false);
 
     const { title1, title2, src } = project;
